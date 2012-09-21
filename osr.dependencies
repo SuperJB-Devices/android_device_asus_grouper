@@ -1,0 +1,18 @@
+[
+    {
+      "repository": "SuperJB-Kernel/android_kernel_asus_grouper",
+      "target_path": "kernel/asus/grouper",
+      "branch": "jellybean"
+    },
+    {
+      "repository": "SuperJB-Vendor/android_vendor_asus_grouper",
+      "target_path": "vendor/asus/grouper",
+      "branch": "jellybean"
+    },
+    {
+      "repository": "SuperJB-Vendor/android_vendor_nvidia_grouper",
+      "target_path": "vendor/nvidia/grouper",
+      "branch": "jellybean"
+    }
+]
+

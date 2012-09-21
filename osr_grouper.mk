@@ -13,16 +13,9 @@ $(call inherit-product, vendor/osr/config/nfc_enhanced.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/asus/grouper/full_grouper.mk)
-
 	
 # Add Google apps
-$(call inherit-product, vendor/google/minimal.mk)
-$(call inherit-product, vendor/google/products/ears_support.mk)
-$(call inherit-product, vendor/google/products/tts_support.mk)
-$(call inherit-product, vendor/google/products/maps_support.mk)	
-$(call inherit-product, vendor/google/products/facelock_support.mk)
-$(call inherit-product, vendor/google/products/youtube_support.mk)
-
+$(call inherit-product, vendor/google/full.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := grouper
